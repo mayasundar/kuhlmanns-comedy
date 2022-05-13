@@ -1,0 +1,106 @@
+body{
+	font-family: 'Courier Prime', monospace;
+	background-color: #F7F2F2;
+}
+
+
+.split{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}
+
+.half{
+	left:0;
+	padding-left: 12vw;
+	width: 50%;
+}
+
+.original{
+	padding-top: 10px;
+	padding-left: 10px;
+
+}
+
+.other-half{
+	right:0;
+	padding-left: 10vw;
+}
+
+.augmented{
+	padding-top: 10px;
+	padding-left: 10px;
+
+}
+
+
+.box {
+  position: relative;
+  margin: 40px auto;
+  width: 400px;
+  height: 550px;
+  background: #fff;
+  border-radius: 2px;
+  max-width:500px;
+  box-shadow: 0 2px 14px rgba(0,0,0,.4);
+}
+<!-- HTML !-->
+<button class="button-45" role="button">Button 45</button>
+
+/* CSS */
+.button-45 {
+  align-items: center;
+  background-color: #FFE7E7;
+  background-position: 0 0;
+  border: 1px solid #FEE0E0;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #D33A2C;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  padding: 2px 12px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+
+.next{
+  align-items: center;
+  background-color: #F6DDDD;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  height: 40px;
+  margin: 0;
+  padding: 0px 16px;
+  position: relative;
+  text-align: center;
+  transition: color 100ms;
+}
+
+.next:hover,
+.next:focus {
+  background-color: #EECCCC;
+}
+
+
