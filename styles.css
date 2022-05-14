@@ -3,7 +3,6 @@ body{
 	background-color: #F7F2F2;
 }
 
-
 .split{
   height: 100%;
   width: 50%;
@@ -38,7 +37,6 @@ body{
 
 }
 
-
 .box {
   position: relative;
   margin: 40px auto;
@@ -49,10 +47,7 @@ body{
   max-width:500px;
   box-shadow: 0 2px 14px rgba(0,0,0,.4);
 }
-<!-- HTML !-->
-<button class="button-45" role="button">Button 45</button>
 
-/* CSS */
 .button-45 {
   align-items: center;
   background-color: #FFE7E7;
@@ -79,7 +74,6 @@ body{
   white-space: nowrap;
   word-break: break-word;
 }
-
 
 .next{
   align-items: center;
