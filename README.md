@@ -1,8 +1,8 @@
 # kuhlmanns-comedy
 
-Maya Sundar
-Literature in the Age of AI
-13 May 2022
+#### Maya Sundar
+#### Literature in the Age of AI
+#### 13 May 2022
 
 ============================================
 
